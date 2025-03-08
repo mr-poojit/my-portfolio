@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poojit's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.avif" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Poojit Nagaloti" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Poojit Nagaloti">Poojit Nagaloti</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="poojitnagaloti611@gmail.com" class="contact-link">poojitnagaloti611@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919538212512" class="contact-link">+91 9538212512</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-12-17">December 17, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bangalore, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/mr-poojit" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/poojit-jagadeesh-nagaloti-a0553323b/" class="social-link">
+              <ion-icon name="logo-linkedIn"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/PoojitNagaloti?t=xG67navi8hx0ibjLLqP90Q&s=08 " class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/poojit_n_?igsh=a2VoOTRkeTk4Mzgy" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Experience</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a tech-savvy, innovation-driven engineer with expertise in embedded systems, AI, 
+            and digital marketing, eager to create cutting-edge solutions in both hardware and software domains.
+          </p>
+
+          <p>
+            My job is to develop innovative embedded systems and AI-driven solutions that are both efficient and impactful. 
+            I ensure that every project I work on is technically robust, user-friendly, and optimized for real-world applications. 
+            Moreover, I bring a unique blend of engineering and digital marketing expertise, making sure that technology not only works but also reaches the right audience effectively. 
+            My aim is to bridge the gap between hardware, software, and business strategy, delivering solutions that are cutting-edge, scalable, and market-ready. 🚀
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <li class="testimonials">
+          <section class="content-card" data-testimonials-item>
+      
+            <figure class="testimonials-avatar-box">
+              <img src="./assets/images/icon-design.svg" alt="Daniel Lewis" width="60" data-testimonials-avatar>
+            </figure>
+      
+            <h4 class="h4 testimonials-item-title" data-testimonials-title>Trainee Engineer</h4>
+      
+            <div class="testimonials-text" data-testimonials-text>
+              <p>
+                As a Trainee Engineer at Angstromers Engineering Solutions, 
+                I design, develop, and test electronic systems while working closely with senior engineers to gain hands-on experience.
+              </p>
+            </div>
+      
+          </section>
+        </li>
+        
+        <li class="testimonials">
+          <section class="content-card" data-testimonials-item>
+      
+            <figure class="testimonials-avatar-box">
+              <img src="./assets/images/icon-dev.svg" alt="Auto Dubbing" width="60" data-testimonials-avatar>
+            </figure>
+      
+            <h4 class="h4 testimonials-item-title" data-testimonials-title>Auto Dubbing</h4>
+      
+            <div class="testimonials-text" data-testimonials-text>
+              <p>
+                I am currently working on this project. It is a language translator with video access. 
+                I'm enhancing it to monitor single-person speech and translate it into multiple languages with lip sync.
+              </p>
+            </div>
+      
+          </section>
+        </li>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Cambridge Institute of Technology</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                Currently pursuing a Bachelor's degree in Electronics and Communication Engineering, developing expertise in embedded systems, PCB design, and AI-driven technologies. 
+                Gained hands-on experience in programming, circuit design, and cloud computing, preparing for innovative solutions in the tech industry.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BVVS Independent Pu College</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+                Completed pre-university education with a strong focus on physics, mathematics, and computer science. 
+                Developed analytical thinking, problem-solving skills, and a passion for technology, which laid the foundation for my engineering career.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Art and Cultural High School</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">
+                Completed secondary education with a strong foundation in science and mathematics.
+                Actively participated in technical and extracurricular activities, fostering an early interest in engineering and innovation.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+  
+            <h3 class="h3 skills-title">My skills</h3>
+  
+            <ul class="skills-list content-card">
+  
+              <li class="skills-item">
+  
+                <div class="title-wrapper">
+                  <h5 class="h5">Python</h5>
+                  <data value="80">80%</data>
+                </div>
+  
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+  
+              </li>
+  
+              <li class="skills-item">
+  
+                <div class="title-wrapper">
+                  <h5 class="h5">C/C++</h5>
+                  <data value="70">70%</data>
+                </div>
+  
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+  
+              </li>
+  
+              <li class="skills-item">
+  
+                <div class="title-wrapper">
+                  <h5 class="h5">Matlab</h5>
+                  <data value="90">70%</data>
+                </div>
+  
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%;"></div>
+                </div>
+  
+              </li>
+  
+              <li class="skills-item">
+  
+                <div class="title-wrapper">
+                  <h5 class="h5">Digital Marketing</h5>
+                  <data value="50">60%</data>
+                </div>
+  
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%;"></div>
+                </div>
+  
+              </li>
+
+              <li class="skills-item">
+  
+                <div class="title-wrapper">
+                  <h5 class="h5">Arduino Design & IDE</h5>
+                  <data value="50">50%</data>
+                </div>
+  
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%;"></div>
+                </div>
+  
+              </li>
+
+              <li class="skills-item">
+  
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML & CSS</h5>
+                  <data value="50">60%</data>
+                </div>
+  
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%;"></div>
+                </div>
+  
+              </li>
+
+              <li class="skills-item">
+  
+                <div class="title-wrapper">
+                  <h5 class="h5">Github</h5>
+                  <data value="50">80%</data>
+                </div>
+  
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+  
+              </li>
+
+              <h1 style="text-align: center;color: white;">You can download my resume here</h1>
+
+              <div style="text-align: center;">
+              <a href="./assets/docs/Poojit_Jagadeesh_Nagaloti-CV.pdf" download class="download-btn">
+                 Download Resume
+              </a>
+              </div>
+
+              <style>
+               .download-btn {
+               display: inline-block;
+               padding: 12px 24px;
+               background: #ffcc80; /* Lighter orange */
+               color: #333; /* Dark text for contrast */
+               font-weight: bold;
+               border-radius: 8px;
+               text-decoration: none;
+               transition: 0.3s;
+               margin-top: 10px;
+               }
+
+               .download-btn:hover {
+                background: #ffb74d; /* Slightly darker on hover */
+               }   
+             </style>
+
+             </style>
+  
+            </ul>
+  
+        </section>
+
+      </article>
+
+      <!--
+        - #Projects
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+         <button class=" " data-select></button>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://github.com/mr-poojit/auto-dubbing.git" target="_blank" class="project-link">
+              
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/P1.png" alt="Arrival" loading="lazy">
+                  </figure>
+              
+                  <h3 class="project-title">Auto Dubbing</h3>
+                  <p class="project-description">
+                    I am currently working on this project, it is the updated version of language translator with Video access and I'm trying to upgrade it to monitor single person speech into multiple language translation with a lip sync.
+                  </p>
+              
+                </a>
+              </li>
+              
+              <style>
+                .project-link {
+                  display: block;
+                  text-decoration: none;
+                  color: inherit;
+                  padding: 10px;
+                }
+              
+                .project-description {
+                  margin-top: 8px;
+                  font-size: 12px;
+                  color: white; /* White text color */
+                }
+              
+                .project-item {
+                  background: #222; /* Dark background */
+                  padding: 15px;
+                  border-radius: 10px;
+                  transition: transform 0.2s ease-in-out;
+                }
+              
+                .project-item:hover {
+                  transform: scale(1.05);
+                }
+              </style>
+              
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://github.com/mr-poojit/real-time-language-translator.git" target="_blank" class="project-link">
+              
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/P2.jpg" alt="Arrival" loading="lazy">
+                  </figure>
+              
+                  <h3 class="project-title">Language Translator</h3>
+                  <p class="project-description">
+                    This project provides a real-time speech-to-speech translation system in multiple languages. It captures English speech from a microphone, translates it into a set of target languages, and plays the translated text as audio. This can be useful for language learning, communication across language barriers, or real-time translation needs.
+                  </p>
+              
+                </a>
+              </li>
+              
+              <style>
+                .project-link {
+                  display: block;
+                  text-decoration: none;
+                  color: inherit;
+                  padding: 10px;
+                }
+              
+                .project-description {
+                  margin-top: 8px;
+                  font-size: 12px;
+                  color: white; /* White text color */
+                }
+              
+                .project-item {
+                  background: #222; /* Dark background */
+                  padding: 15px;
+                  border-radius: 10px;
+                  transition: transform 0.2s ease-in-out;
+                }
+              
+                .project-item:hover {
+                  transform: scale(1.05);
+                }
+              </style>
+
+              
+            <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://github.com/mr-poojit/real-time-language-translator.git" target="_blank" class="project-link">
+              
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/P3.jpg" alt="VLSI" loading="lazy">
+                  </figure>
+              
+                  <h3 class="project-title">VLSI Automated Verification System</h3>
+                  <p class="project-description">
+                    This project of an automated system which detects and corrects the errors in the hardware description language(HDL) and also modifies it with the correct code automatically.
+                  </p>
+              
+                </a>
+              </li>
+              
+              <style>
+                .project-link {
+                  display: block;
+                  text-decoration: none;
+                  color: inherit;
+                  padding: 10px;
+                }
+              
+                .project-description {
+                  margin-top: 8px;
+                  font-size: 12px;
+                  color: white; /* White text color */
+                }
+              
+                .project-item {
+                  background: #222; /* Dark background */
+                  padding: 15px;
+                  border-radius: 10px;
+                  transition: transform 0.2s ease-in-out;
+                }
+              
+                .project-item:hover {
+                  transform: scale(1.05);
+                }
+              </style>
+            
+
+            <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://github.com/mr-poojit/kitti-object-detection-using-multisensor.git" target="_blank" class="project-link">
+              
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/P4.jpg" alt="VLSI" loading="lazy">
+                  </figure>
+              
+                  <h3 class="project-title">Kitti Object Detection using Multisensor</h3>
+                  <p class="project-description">
+                    A project that detects the motion of object using LiDaR sensor and calculates the distance and width of the of the objects.
+                  </p>
+              
+                </a>
+              </li>
+              
+              <style>
+                .project-link {
+                  display: block;
+                  text-decoration: none;
+                  color: inherit;
+                  padding: 10px;
+                }
+              
+                .project-description {
+                  margin-top: 8px;
+                  font-size: 12px;
+                  color: white; /* White text color */
+                }
+              
+                .project-item {
+                  background: #222; /* Dark background */
+                  padding: 15px;
+                  border-radius: 10px;
+                  transition: transform 0.2s ease-in-out;
+                }
+              
+                .project-item:hover {
+                  transform: scale(1.05);
+                }
+              </style>
+            
+
+            <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://github.com/mr-poojit/heat-maps.git" target="_blank" class="project-link">
+              
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/P5.jpg" alt="VLSI" loading="lazy">
+                  </figure>
+              
+                  <h3 class="project-title">Noise Pollution Detection using HeatMaps</h3>
+                  <p class="project-description">
+                    This project uses the YOLO (You Only Look Once) object detection model to identify cars in video frames and generates a heatmap visualization based on object occurrences.
+                  </p>
+              
+                </a>
+              </li>
+              
+              <style>
+                .project-link {
+                  display: block;
+                  text-decoration: none;
+                  color: inherit;
+                  padding: 10px;
+                }
+              
+                .project-description {
+                  margin-top: 8px;
+                  font-size: 12px;
+                  color: white; /* White text color */
+                }
+              
+                .project-item {
+                  background: #222; /* Dark background */
+                  padding: 15px;
+                  border-radius: 10px;
+                  transition: transform 0.2s ease-in-out;
+                }
+              
+                .project-item:hover {
+                  transform: scale(1.05);
+                }
+              </style>
+
+            <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://github.com/mr-poojit/Chat_bot_like_CHATGPT.git" target="_blank" class="project-link">
+              
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/P6.jpg" alt="Arrival" loading="lazy">
+                  </figure>
+              
+                  <h3 class="project-title">ChatGPT Clone</h3>
+                  <p class="project-description">
+                    A simple chat bot which works like a chatgpt and it'll give the accurate information for your given prompt.
+                  </p>
+              
+                </a>
+              </li>
+              
+              <style>
+                .project-link {
+                  display: block;
+                  text-decoration: none;
+                  color: inherit;
+                  padding: 10px;
+                }
+              
+                .project-description {
+                  margin-top: 8px;
+                  font-size: 14px;
+                  color: white; /* White text color */
+                }
+              
+                .project-item {
+                  background: #222; /* Dark background */
+                  padding: 15px;
+                  border-radius: 10px;
+                  transition: transform 0.2s ease-in-out;
+                }
+              
+                .project-item:hover {
+                  transform: scale(1.05);
+                }
+              </style>
+
+              <li class="project-item active" data-filter-item data-category="web development">
+                <a href="https://github.com/mr-poojit/Image-recognition.git" target="_blank" class="project-link">
+              
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+              
+                    <img src="./assets/images/P7.webp" alt="Arrival" loading="lazy">
+                  </figure>
+              
+                  <h3 class="project-title">Image Recognition</h3>
+                  <p class="project-description">
+                    Image recognition uses AI and deep learning to identify objects and patterns in images, enabling applications like facial recognition and autonomous vehicles. 🚀
+                  </p>
+              
+                </a>
+              </li>
+              
+              <style>
+                .project-link {
+                  display: block;
+                  text-decoration: none;
+                  color: inherit;
+                  padding: 10px;
+                }
+              
+                .project-description {
+                  margin-top: 8px;
+                  font-size: 14px;
+                  color: white; /* White text color */
+                }
+              
+                .project-item {
+                  background: #222; /* Dark background */
+                  padding: 15px;
+                  border-radius: 10px;
+                  transition: transform 0.2s ease-in-out;
+                }
+              
+                .project-item:hover {
+                  transform: scale(1.05);
+                }
+              </style>
+              
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #Experience
+      -->
+
+     <article class="experience" data-page="experience">
+
+        <header>
+          <h2 class="h2 article-title">Experience</h2>
+        </header>
+
+        <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3"></h3>
+            </div>
+  
+            <ol class="timeline-list">
+
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Trainee Engineer</h4>
+                  <span>2024 — Present</span>
+                  <ul class="timeline-text">
+                    <li><strong>Assist in Design & Development:</strong> Support senior engineers in designing, developing, and testing products, embedded systems, or communication networks.</li>
+                    <li><strong>Technical Documentation:</strong> Prepare and maintain technical drawings, blueprints, specifications, and engineering reports.</li>
+                    <li><strong>Research & Analysis:</strong> Conduct feasibility studies, performance analysis, and technical research to support engineering projects.</li>
+                    <li><strong>Testing & Validation:</strong> Assist in system testing, debugging, and validation to ensure compliance with design requirements.</li>
+                    <li><strong>Issue Identification & Reporting:</strong> Document and report any technical issues, discrepancies, or risks encountered during work.</li>
+                    <li><strong>Compliance & Process Improvement:</strong> Ensure adherence to industry standards and contribute to process improvements in engineering workflows.</li>
+                  </ul>
+                </li>
+              
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Junior Consultant</h4>
+                  <span>05/2024 — 11/2024</span>
+                  <ul class="timeline-text">
+                    <li><strong>Conducted industry research:</strong> Analyzed market trends, emerging technologies, and consumer behavior to identify business opportunities.</li>
+                    <li><strong>Competitor analysis:</strong> Researched competitor strategies, strengths, and weaknesses to refine business positioning.</li>
+                    <li><strong>Market research & trend analysis:</strong> Collected and analyzed data to identify market gaps, customer needs, and growth opportunities.</li>
+                    <li><strong>Keyword research & SEO optimization:</strong> Identified relevant keywords and optimized website content to improve search engine rankings.</li>
+                    <li><strong>Performance monitoring:</strong> Tracked key metrics like traffic, conversions, and engagement to evaluate campaign success.</li>
+                    <li><strong>Strategy optimization:</strong> Adjusted marketing and SEO strategies based on performance insights to maximize effectiveness.</li>
+                  </ul>
+                </li>
+              
+              </ol>
+              
+              <style>
+                .timeline-list {
+                  list-style-type: none;
+                  padding-left: 0;
+                }
+              
+                .timeline-item {
+                  margin-bottom: 20px;
+                  font-size: 1rem;
+                  line-height: 1.5;
+                }
+              
+                .timeline-text {
+                  list-style-type: disc;
+                  padding-left: 20px;
+                }
+              
+                .timeline-text li {
+                  margin-bottom: 5px;
+                }
+              
+                .timeline-item-title {
+                  font-size: 1.2rem;
+                  font-weight: bold;
+                }
+              </style>
+              
+  
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="poojitnagaloti611@gmail.com" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
